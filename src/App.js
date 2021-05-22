@@ -15,6 +15,12 @@ const App = () => {
       title: 'Car Insurance',
       amount: 994.67,
       date: new Date(2020, 1, 17),
+    },
+    {
+      id: 'e4',
+      title: 'Book buying',
+      amount: 55.00,
+      date: new Date(2021, 2, 15),
     }
   ];
   const addExpenseHandler = (expense) => {
